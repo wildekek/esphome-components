@@ -17,7 +17,7 @@ namespace espbt = esp32_ble_tracker;
 // 69400001-B5A3-F393-E0A9-E50E24DCCA99
 // 7F510004-B5A3-F393-E0A9-E50E24DCCA9E
 static const char *const SERVICE_UUID = "69400001-B5A3-F393-E0A9-E50E24DCCA99";
-static const char *const CHARACTERISTIC_UUID = "7F510004-B5A3-F393-E0A9-E50E24DCCA9E";
+static const char *const CHARACTERISTIC_UUID = "69400002-B5A3-F393-E0A9-E50E24DCCA99";
 static const int MSG_MAX_SIZE = 10;  // size of msg_ string to reserve in bytes (uint8_t*).
 static const float COLD_WHITE = 178.6;  // 5600 K
 static const float WARM_WHITE = 312.5;  // 3200 K
